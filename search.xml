@@ -17,6 +17,31 @@
     
     
     <entry>
+      <title>上传blog方法</title>
+      <link href="/2021/06/29/shang-chuan-blog-fang-fa/"/>
+      <url>/2021/06/29/shang-chuan-blog-fang-fa/</url>
+      
+        <content type="html"><![CDATA[<p>在</p><p>E:\Github\Blog\source_posts</p><p>git bash here</p><pre><code class="python">hexo new &quot;My New Post&quot;#书写blogshexo g   # 生成页面hexo d   # 部署发布#浏览https://wugrand.github.io/#如果一时本会儿没有更新hexo cleanhexo ghexo d</code></pre><p>生成网页  发布后，大概1mins后，打开网页会更新上</p><span id="more"></span><h3 id="7-4-常用命令"><a href="#7-4-常用命令" class="headerlink" title="# 7.4 常用命令"></a><strong># 7.4 常用命令</strong></h3><pre><code class="python">hexo new &quot;name&quot;       # 新建文章hexo new page &quot;name&quot;  # 新建页面hexo g                # 生成页面hexo d                # 部署hexo g -d             # 生成页面并部署hexo s                # 本地预览hexo clean            # 清除缓存和已生成的静态文件hexo help             # 帮助</code></pre><p>Q&amp;A：</p><p><img src="https://lrj-typora.oss-cn-beijing.aliyuncs.com/whw/image-20210629171737455.png" alt="image-20210629171737455"></p><p>Blog搭建方法：</p><p>使用 Hexo+GitHub 搭建个人免费博客教程</p><p><a href="https://zhuanlan.zhihu.com/p/60578464">https://zhuanlan.zhihu.com/p/60578464</a></p><p>同步 GitHub Page 博客到 Gitee</p><p><a href="https://r0yanx.com/2020/08/21/%E5%90%8C%E6%AD%A5GitHub-Page%E5%8D%9A%E5%AE%A2%E5%88%B0Gitee/">https://r0yanx.com/2020/08/21/%E5%90%8C%E6%AD%A5GitHub-Page%E5%8D%9A%E5%AE%A2%E5%88%B0Gitee/</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>5W2H | 关于写博客的七点反思</title>
       <link href="/2020/01/14/5w2h-godweiyang/"/>
       <url>/2020/01/14/5w2h-godweiyang/</url>

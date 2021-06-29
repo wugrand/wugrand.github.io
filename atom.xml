@@ -38,6 +38,38 @@
   </entry>
   
   <entry>
+    <title>上传blog方法</title>
+    <link href="http://example.com/2021/06/29/shang-chuan-blog-fang-fa/"/>
+    <id>http://example.com/2021/06/29/shang-chuan-blog-fang-fa/</id>
+    <published>2021-06-29T07:43:58.000Z</published>
+    <updated>2021-06-29T13:02:35.423Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在&lt;/p&gt;
+&lt;p&gt;E:\Github\Blog\source_posts&lt;/p&gt;
+&lt;p&gt;git bash here&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;hexo new &amp;quot;My New Post&amp;quot;
+#书写blogs
+hexo g   # 生成页面
+hexo d   # 部署发布
+#浏览https://wugrand.github.io/
+#如果一时本会儿没有更新
+hexo clean
+hexo g
+hexo d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;生成网页  发布后，大概1mins后，打开网页会更新上&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>5W2H | 关于写博客的七点反思</title>
     <link href="http://example.com/2020/01/14/5w2h-godweiyang/"/>
     <id>http://example.com/2020/01/14/5w2h-godweiyang/</id>
