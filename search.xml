@@ -4,50 +4,11 @@
   
     
     <entry>
-      <title>test</title>
-      <link href="/2021/06/30/test-1/"/>
-      <url>/2021/06/30/test-1/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/2021/06/30/test/"/>
-      <url>/2021/06/30/test/</url>
-      
-        <content type="html"><![CDATA[<p>算法啊</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2021/06/29/hello-world/"/>
-      <url>/2021/06/29/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>上传blog方法</title>
       <link href="/2021/06/29/shang-chuan-blog-fang-fa/"/>
       <url>/2021/06/29/shang-chuan-blog-fang-fa/</url>
       
-        <content type="html"><![CDATA[<p>在</p><p>E:\Github\Blog\source_posts</p><p>git bash here</p><pre><code class="python">hexo new &quot;My New Post&quot;#书写blogshexo g   # 生成页面hexo d   # 部署发布#浏览https://wugrand.github.io/#如果一时本会儿没有更新hexo cleanhexo ghexo d</code></pre><p>生成网页  发布后，大概1mins后，打开网页会更新上</p><span id="more"></span><h3 id="7-4-常用命令"><a href="#7-4-常用命令" class="headerlink" title="# 7.4 常用命令"></a><strong># 7.4 常用命令</strong></h3><pre><code class="python">hexo new &quot;name&quot;       # 新建文章hexo new page &quot;name&quot;  # 新建页面hexo g                # 生成页面hexo d                # 部署hexo g -d             # 生成页面并部署hexo s                # 本地预览hexo clean            # 清除缓存和已生成的静态文件hexo help             # 帮助</code></pre><p>Q&amp;A：</p><p><img src="https://lrj-typora.oss-cn-beijing.aliyuncs.com/whw/image-20210629171737455.png" alt="image-20210629171737455"></p><p>Blog搭建方法：</p><p>使用 Hexo+GitHub 搭建个人免费博客教程</p><p><a href="https://zhuanlan.zhihu.com/p/60578464">https://zhuanlan.zhihu.com/p/60578464</a></p><p>同步 GitHub Page 博客到 Gitee</p><p><a href="https://r0yanx.com/2020/08/21/%E5%90%8C%E6%AD%A5GitHub-Page%E5%8D%9A%E5%AE%A2%E5%88%B0Gitee/">https://r0yanx.com/2020/08/21/%E5%90%8C%E6%AD%A5GitHub-Page%E5%8D%9A%E5%AE%A2%E5%88%B0Gitee/</a></p>]]></content>
+        <content type="html"><![CDATA[<p>在</p><p>E:\Github\Blog\source_posts</p><p>git bash here</p><p>先连接远端仓库：</p><pre><code class="python">git config --global user.name &quot;Your Name&quot;git config --global user.email &quot;email@example.com&quot;ssh-keygen -t rsa -C &quot;email@example.com&quot;  #生成ssh公钥:#接下来到GitHub上，打开“Account settings”--“SSH Keys”页面，然后点“Add SSH #Key”，填上Title（随意写），在Key文本框里粘贴 id_rsa.pub文件里的全部内容。ssh -T git@github.com</code></pre><p>书写E:\Github\wugrandBlog\source_posts\XX.md文档</p><pre><code class="python">hexo new &quot;My New Post&quot;#书写blogshexo g   # 生成页面hexo server -p 5002hexo d   # 部署发布#浏览https://wugrand.github.io/#如果一时本会儿没有更新hexo cleanhexo g -d</code></pre><p>生成网页  发布后，大概1mins后，打开网页会更新上</p><span id="more"></span><h3 id="7-4-常用命令"><a href="#7-4-常用命令" class="headerlink" title="# 7.4 常用命令"></a><strong># 7.4 常用命令</strong></h3><pre><code class="python">hexo new &quot;name&quot;       # 新建文章hexo new page &quot;name&quot;  # 新建页面hexo g                # 生成页面hexo d                # 部署hexo g -d             # 生成页面并部署hexo s                # 本地预览hexo clean            # 清除缓存和已生成的静态文件hexo help             # 帮助</code></pre><p>Q&amp;A：</p><p><img src="https://lrj-typora.oss-cn-beijing.aliyuncs.com/whw/image-20210629171737455.png" alt="image-20210629171737455"></p><p>参考：</p><p><a href="https://blog.csdn.net/u012037852/article/details/80756081">https://blog.csdn.net/u012037852/article/details/80756081</a></p><p>Blog搭建方法：</p><p>使用 Hexo+GitHub 搭建个人免费博客教程</p><p><a href="https://zhuanlan.zhihu.com/p/60578464">https://zhuanlan.zhihu.com/p/60578464</a></p><p>同步 GitHub Page 博客到 Gitee</p><p><a href="https://r0yanx.com/2020/08/21/%E5%90%8C%E6%AD%A5GitHub-Page%E5%8D%9A%E5%AE%A2%E5%88%B0Gitee/">https://r0yanx.com/2020/08/21/%E5%90%8C%E6%AD%A5GitHub-Page%E5%8D%9A%E5%AE%A2%E5%88%B0Gitee/</a></p>]]></content>
       
       
       <categories>

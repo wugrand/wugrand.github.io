@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-29T17:15:52.998Z</updated>
+  <updated>2021-06-29T17:27:50.780Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,81 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://example.com/2021/06/30/test-1/"/>
-    <id>http://example.com/2021/06/30/test-1/</id>
-    <published>2021-06-29T17:15:52.000Z</published>
-    <updated>2021-06-29T17:15:52.998Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://example.com/2021/06/30/test/"/>
-    <id>http://example.com/2021/06/30/test/</id>
-    <published>2021-06-29T17:14:54.000Z</published>
-    <updated>2021-06-29T17:16:31.341Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;算法啊&lt;/p&gt;
-</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2021/06/29/hello-world/"/>
-    <id>http://example.com/2021/06/29/hello-world/</id>
-    <published>2021-06-29T11:27:10.991Z</published>
-    <updated>2021-06-29T11:27:10.991Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>上传blog方法</title>
     <link href="http://example.com/2021/06/29/shang-chuan-blog-fang-fa/"/>
     <id>http://example.com/2021/06/29/shang-chuan-blog-fang-fa/</id>
     <published>2021-06-29T07:43:58.000Z</published>
-    <updated>2021-06-29T13:02:35.423Z</updated>
+    <updated>2021-06-29T17:27:50.780Z</updated>
     
     
     <summary type="html">&lt;p&gt;在&lt;/p&gt;
 &lt;p&gt;E:\Github\Blog\source_posts&lt;/p&gt;
 &lt;p&gt;git bash here&lt;/p&gt;
+&lt;p&gt;先连接远端仓库：&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;python&quot;&gt;
+git config --global user.name &amp;quot;Your Name&amp;quot;
+git config --global user.email &amp;quot;email@example.com&amp;quot;
+ssh-keygen -t rsa -C &amp;quot;email@example.com&amp;quot;  #生成ssh公钥:
+
+#接下来到GitHub上，打开“Account settings”--“SSH Keys”页面，然后点“Add SSH #Key”，填上Title（随意写），在Key文本框里粘贴 id_rsa.pub文件里的全部内容。
+ssh -T git@github.com
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;书写E:\Github\wugrandBlog\source_posts\XX.md文档&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;python&quot;&gt;hexo new &amp;quot;My New Post&amp;quot;
 #书写blogs
 hexo g   # 生成页面
+hexo server -p 5002
 hexo d   # 部署发布
 #浏览https://wugrand.github.io/
 #如果一时本会儿没有更新
 hexo clean
-hexo g
-hexo d
+hexo g -d
+
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;生成网页  发布后，大概1mins后，打开网页会更新上&lt;/p&gt;</summary>
     
